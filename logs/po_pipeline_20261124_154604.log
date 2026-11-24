@@ -1,0 +1,8 @@
+2026-11-24 15:46:04,371 WARNING [purchase_order_sample.txt] line 31 SKU 71097218 MISSING_UPC: no UPC found for this SKU (left blank, not guessed)
+2026-11-24 15:46:04,371 WARNING [purchase_order_sample.txt] line 40 SKU 71293252 EXT_COST_MISMATCH: printed 4146.080, COST x QTY = 4046.080 (diff +100.000)
+2026-11-24 15:46:04,372 WARNING [purchase_order_sample.txt] line 44 SKU 71293276 COST_REPAIRED: printed '55,440', read as 55.440 because 55.440 x 116 = 6431.040 matches the printed EXT COST
+2026-11-24 15:46:04,372 WARNING [purchase_order_sample.txt] PO total 447455.120 != sum of printed line EXT COSTs 447555.120 (sum of recomputed lines = 447455.120)
+2026-11-24 15:46:04,408 INFO    [purchase_order_sample.txt] PO# TX9K2QP: 12 rows -> output/purchase_order_sample.xlsx
+2026-11-24 15:46:04,424 INFO    [purchase_order_sample_2.txt] PO# PL7M3RK: 6 rows -> output/purchase_order_sample_2.xlsx
+2026-11-24 15:46:04,441 INFO    [load] po.db: read 18 rows; table went 18 -> 18 rows (0 new, the rest already existed and were updated in place)
+2026-11-24 15:46:04,442 INFO    RUN SUMMARY exit=1 files=2 rejected=0 rows=18 flagged_rows=3 line_errors=0 total_mismatches=1
