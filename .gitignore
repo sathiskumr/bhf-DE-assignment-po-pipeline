@@ -16,9 +16,6 @@ htmlcov/
 # Local data / generated files
 po.db
 *.db
-logs/
-output/
-*.log
 
 # Secrets
 .env
